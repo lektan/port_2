@@ -26,11 +26,11 @@ function App() {
   const contact = useRef();
 
   const scrollHandler = (arg) => {
-    if (arg == about) {
+    if (arg === about) {
       about.current.scrollIntoView({ behavior: "smooth" });
-    } else if (arg == work) {
+    } else if (arg === work) {
       work.current.scrollIntoView({ behavior: "smooth" });
-    } else if (arg == services) {
+    } else if (arg === services) {
       services.current.scrollIntoView({ behavior: "smooth" });
     } else {
       contact.current.scrollIntoView({ behavior: "smooth" });

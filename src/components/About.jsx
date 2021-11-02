@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/log.jpg";
 
 const About = () => {
   return (
@@ -14,11 +15,8 @@ const About = () => {
         Front End Developer. With a passion for well-crafted (digital)
         experiences, I believe in beauty to empower ideas.
       </p>
-      <div className="lg:col-start-5 md:col-start-2">
-        <img
-          alt="img"
-          src="https://images.pexels.com/photos/3031397/pexels-photo-3031397.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        />
+      <div className="lg:col-start-5 row-span-2 md:col-start-2">
+        <img className="h-full object-cover" alt="Me" src={logo} />
       </div>
       <p className="lg:col-start-2 lg:col-end-4 md:row-start-2">
         My goal is to create a stunning web applications for people. A
