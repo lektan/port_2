@@ -16,7 +16,7 @@ const About = () => {
         experiences, I believe in beauty to empower ideas.
       </p>
       <div className="lg:col-start-5 row-span-2 md:col-start-2">
-        <img className="h-full object-cover" alt="Me" src={logo} />
+        {/* <img className="h-full object-cover" alt="Me" src={logo} /> */}
       </div>
       <p className="lg:col-start-2 lg:col-end-4 md:row-start-2">
         My goal is to create a stunning web applications for people. A
