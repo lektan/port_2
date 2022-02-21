@@ -50,7 +50,7 @@ function App() {
         <About />
         <Features />
         <Work />
-        {/* <Contacts /> */}
+        <Contacts />
       </div>
     </AnimationContext.Provider>
   );

@@ -100,14 +100,14 @@ const Hero = ({ work, contact, services, about, scrollHandler }) => {
           Work
           <div className="bg-black absolute bottom-0 left-0 w-full h-1 transform translate-y-2 opacity-0 duration-300 ease-in-out group-hover:opacity-100 group-hover:translate-y-0" />
         </a>
-        {/* <a
+        <a
           href="#contact"
           className="relative block w-max group menuItem"
           onClick={menuHandler}
         >
           Contact
           <div className="bg-black absolute bottom-0 left-0 w-full h-1 transform translate-y-2 opacity-0 duration-300 ease-in-out group-hover:opacity-100 group-hover:translate-y-0" />
-        </a> */}
+        </a>
       </div>
       <Link
         className="reveal col-span-1 row-start-6 z-0 flex w-max items-end text-3xl duration-300 transform hover:translate-y-4"
